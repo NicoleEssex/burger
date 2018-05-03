@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 var methodoOverride = require("method-override");
-var mySql= require("mySql");
+var mySql= require("mysql");
 
 
 //START SERVER
