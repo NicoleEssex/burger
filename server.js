@@ -12,9 +12,7 @@ var app = express();
 //EXPRESS ROUTE TO DISPLAY HANDLEBARS INDEX + MAIN
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
-app.get('/',function(req,res){
-    res.render('index');
-})
+
 
 //Serve static content for the app from the "public" directory in the application.
 app.use(express.static("public"));
