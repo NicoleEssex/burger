@@ -1,4 +1,4 @@
-USE burgers_db;
+USE gmzz04guu4y6gwai;
 
 INSERT INTO  burgers (burger, devoured)
 VALUES ('King', false);
